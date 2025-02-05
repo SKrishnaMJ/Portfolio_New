@@ -757,3 +757,55 @@
     text-transform: uppercase;
     color: #333;
 }
+/* Ensure Education section matches Experience */
+.education-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Maintain spacing between entries */
+    align-items: flex-start;
+}
+
+/* Match layout with Experience */
+.education-info {
+    display: flex;
+    align-items: center; /* Align logo and text horizontally */
+    gap: 20px; /* Space between logo and text */
+    border: none; /* Remove card effect */
+    background: none; /* Remove box background */
+    padding: 0; /* Remove extra padding */
+    box-shadow: none; /* Remove shadow */
+}
+
+/* Match Education logos with Experience logos */
+.education-info img {
+    width: 100px; /* Set a fixed width for consistency */
+    height: auto;
+}
+
+/* Ensure text layout is the same as Experience */
+.education-details {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Match Degree Titles with Experience Job Titles */
+.education-details h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Match University Names with Company Names */
+.education-details p {
+    font-size: 18px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Match Date Format */
+.education-details .education-dates {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+}
