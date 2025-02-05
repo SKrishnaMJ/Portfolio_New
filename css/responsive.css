@@ -715,3 +715,45 @@
     color: #666;
     line-height: 1.6;
 }
+
+
+/* Make Education Section identical to Experience Section */
+.education-section, .experience-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Match Education Info to Experience Info */
+.education-info, .experience-info {
+    background: #f9f9f9; /* Ensure same background */
+    padding: 20px;
+    border-left: 4px solid #333; /* Match left border */
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure heading styles are the same */
+.education-info h3, .experience-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Ensure text formatting matches */
+.education-info p, .experience-info p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Remove bold from Education, Portfolio, and Contact headings */
+.education-section h1, 
+.portfolio-section h1, 
+.contact-section h1 {
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333;
+}
