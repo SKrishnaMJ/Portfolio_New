@@ -674,13 +674,14 @@
 }
 
 
-/* Center-align the About paragraph */
+/* Justify-align the About paragraph */
 .about-info {
-    text-align: center;
+    text-align: justify;
 }
 
 .about-info p {
     max-width: 80%; /* Ensures text doesn't stretch too wide */
-    margin: 0 auto; /* Centers block-level element */
+    margin: 0 auto; /* Centers the paragraph container */
+    text-align: justify; /* Justifies text alignment */
     line-height: 1.6; /* Improves readability */
 }
