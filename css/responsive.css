@@ -672,3 +672,46 @@
 .contact-section h1 {
     font-weight: normal; /* Remove bold effect */
 }
+
+
+/* Align education section with experience section */
+.education-section, .experience-section {
+    display: flex;
+    flex-direction: column; /* Ensures consistent vertical alignment */
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Ensure education-info matches experience-info */
+.education-info, .experience-info {
+    background: #f9f9f9; /* Match background */
+    padding: 20px;
+    border-left: 4px solid #333; /* Match the left border */
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure headings are unbolded */
+.education-section h1, 
+.portfolio-section h1, 
+.contact-section h1 {
+    font-weight: normal; /* Remove bold effect */
+    font-size: 24px; /* Maintain consistency */
+    text-transform: uppercase; /* Optional for styling */
+    color: #333;
+}
+
+/* Consistent spacing and font styling */
+.education-info h3, .experience-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.education-info p, .experience-info p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
